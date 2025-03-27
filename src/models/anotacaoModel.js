@@ -45,5 +45,11 @@ class AnotacaoModel {
       throw error;
     }
   };
+
+  getById = async (id) => {
+    return await prisma.note.findUnique({
+      where: { id },
+    });
+  };
 }
 export default new AnotacaoModel();

@@ -4,7 +4,7 @@ Este projeto é uma API para gerenciar anotações pessoais. Ele foi desenvolvid
 
 ---
 ## Comandos Utilizados
-npm install
+- **npm install**
 npx prisma migrate dev
 npm run dev
 
